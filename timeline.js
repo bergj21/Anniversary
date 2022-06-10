@@ -1,4 +1,4 @@
-displayImgs("./Lilah/img", 72, "jpg");
+displayImgs("./Lilah/img", 72, "JPG");
 function displayImgs(pathName, numImgs, fileType) {
   var targetElem = document.getElementById("img-section");
   for (let i = 1; i <= numImgs; i++) {
